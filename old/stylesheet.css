@@ -1,0 +1,40 @@
+<!--
+/*	This is a CSS comment.
+	The browser will ignore the comment.
+	
+	Programmer     : Bob Harder
+	Last Modified  : 25 Jan 2016
+*/
+
+h2 {
+	color: red;          /* internal link changed it to yellow */
+	background: black;
+	font-size: 24px;
+	font-size: 130%;
+	font-size: 1.3em;
+}
+
+p {
+	color: red;           /* specify color by word */
+	color: #0000FF;       /* specify color by hex code */
+	color: rgb(255,0,0);  /* specify color by rgb decimal code */
+}
+
+
+.class1{
+	color: orange;
+}
+
+h1.class1 {
+	color: blue;
+}
+
+#id1 {
+	color: green;
+	line-height: 1.5;
+	background: url(images/gray_roc.jpg);
+	border: 4px solid black;
+}
+
+
+-->

@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  This is a CSS comment
+	The browser will ignore this comment
+	
+	Programmer: Brady Bilderback
+	Last Modified: 25 Jan 2015
+*/
+
+a {
+	text-decoration: none; /* remove underline */
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: yellow;
+	background: black;
+}
+
+a:active {
+	color: black;
+}
+
+a:focus {
+	color: black;
+}
+
+h2 {
+	color: #F00;
+	background: #000000;
+	font-size: 130%;
+	font-size: 1.3em;
+}
+
+p {
+	color: red;
+	color: #F00;
+	color: rgb(255,0,0);
+}
+
+.class1 {
+	color: orange;
+}
+
+h1.class1 {
+	color: blue;
+}
+
+#id1 {
+	color: green;
+}
+
+#id2 {
+	line-height: 1.5;
+	background: url("images/gray_roc.jpg");
+	border: #000 solid 4px;
+}
+
+/* All paragraphs in id2 */
+#id2 p {
+	color: red;
+}
+
+/* All p in id2 that are not in another id or class */
+#id2 > p {
+	color: orange;
+}
+
+/* only the 1st paragraph in id2 */
+#id2 > p:first-child {
+	color: yellow;
+}
+
+/* all but first p */
+#id2 > p+p {
+	color: green;
+}
+
+/* only first letter in each p */
+#id2 p:first-letter {
+	color: purple;
+}
+
+.emph {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.obli {
+	font-style: oblique;
+	font-weight: normal;
+}

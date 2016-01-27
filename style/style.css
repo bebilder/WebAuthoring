@@ -1,0 +1,117 @@
+a:link {
+    color:inherit;
+    text-decoration:none;
+}
+
+a:visited {
+    color:inherit;
+    text-decoration:none;
+}
+
+a:hover {
+    color:inherit;
+    text-decoration:none;
+}
+
+a:active {
+    color:inherit;
+    text-decoration:none;
+}
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border: transparent none 0;
+}
+
+body {
+    margin: 0;
+    background: #000000 url("bg/dark-mosaic.png");
+    font-family: 'PT Serif', serif;
+}
+
+.logo {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+
+    background: #000000;
+
+    border: #ffffff solid 5px;
+    border-radius: 150px;
+}
+
+.menu {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 135px;
+    
+    background: #ffffff;
+
+    border: transparent none 0;
+    border-radius: 15px;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    color: inherit;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    color: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: auto;
+
+    background: #ff0000;
+
+    text-align: center;
+    color: #ffffff;
+
+    border: transparent none 0;
+    border-radius: 50px;
+}
+
+#btnleft {
+    float: left;
+    margin-left: 25px;
+}
+
+#btnright {
+    float: right;
+    margin-right: 25px;
+}
+
+.button:hover {
+    background: #ff8c00;
+}
+
+.copyright {
+    margin-top: 3px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

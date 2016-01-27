@@ -1,0 +1,49 @@
+.page {
+    padding-left: 225px;
+    padding-right: 225px;
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+
+    color: #ffffff;
+}
+
+.text {
+    float: left;
+    margin: 50px 0px;
+    width: 50%;
+    height: auto;
+}
+
+.images {
+    float: right;
+    margin: 25px 0px;
+    width: 50%;
+    height: auto;
+    text-align: right;
+}
+
+h2 {
+    color: #FF0000;
+    font-size: 20px;
+    text-align: left;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+img.side {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    border: #ffffff solid 2px;
+    border-radius: 250px;
+}
