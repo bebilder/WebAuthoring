@@ -33,6 +33,11 @@ a:focus {
 	color: black;
 }
 
+body {
+	background: #EAF3DA url("images/puppy.gif") no-repeat fixed center top;
+	/* no-repeat repeat-x repeat-y */
+}
+
 h2 {
 	color: #F00;
 	background: #000000;

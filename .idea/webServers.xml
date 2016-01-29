@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9ae5f7d-a644-4859-bf7a-659bef851997" name="wa.diytto.com" url="http://wa.diytto.com">
+        <fileTransfer host="diytto.com" port="22" rootFolder="/var/www/wa.diytto.com" accessType="SFTP" password="df80dfc5df9bdfdedf98df94df9edfcadf9ddfcbdff1df9fdf95dfccdfdb" username="www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

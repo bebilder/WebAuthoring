@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="wa.diytto.com" uploadOnCheckin="e9ae5f7d-a644-4859-bf7a-659bef851997">
+    <serverData>
+      <paths name="wa.diytto.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/wa.diytto.com" local="W:/" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="wa.diytto.com" />
+  </component>
+</project>
