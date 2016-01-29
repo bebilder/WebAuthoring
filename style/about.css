@@ -10,14 +10,14 @@
 
 .text {
     float: left;
-    margin: 50px 0px;
+    margin: 50px;
     width: 50%;
     height: auto;
 }
 
 .images {
     float: right;
-    margin: 25px 0px;
+    margin: 25px;
     width: 250px;
     height: auto;
     text-align: right;
