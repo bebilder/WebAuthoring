@@ -5,7 +5,7 @@
       <paths name="wa.diytto.com">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/wa.diytto.com" local="W:/" web="/" />
+            <mapping deploy="/" local="W:/" web="/" />
           </mappings>
         </serverdata>
       </paths>
