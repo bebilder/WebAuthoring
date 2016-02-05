@@ -1,0 +1,136 @@
+/* spain.css */
+<!--
+/*
+#wrap {
+	background-image: url(miniphotos/bluebench.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-color: transparent;
+*/
+
+a {
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+a:hover, a:active, a:focus {
+	background: #f3cfb6;
+}
+
+a:hover.current {
+	cursor: crosshair;
+}
+
+#wrap {
+	background: url(miniphotos/bluebench.jpg) left top repeat blue;
+	width: 90%;
+	margin: 20px auto;
+	padding: 30px 20px 0 0;
+}
+	/*
+	   setting margins and padding
+	   margin: w;  -or-  padding: w;  set w units all around
+	   margin: w x;                   set w-top/bottom, x-left/right
+	   margin: w x y;                 set w-top, x-left/right, y-bottom
+	   margin: w x y z;               set w-top, x-right, y-bottom, z-left
+	*/
+	
+#screen {
+	background: #FEF6F8;
+	padding: 10px 10px 10px 0;
+}
+
+#header {
+
+}
+
+#footer {
+	clear: both;
+	border-top: #b74e07 dotted 2px;
+}
+
+#navbuttons {
+	float: right;
+	width: 19em;
+	position: relative;
+	bottom: 1em;
+}
+
+#sidebar {
+	background: #F4F8FA;
+	margin-left: 74%;
+}
+
+.description {
+	position: relative;
+	left: 1em;
+	bottom: 1em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#main {
+	width: 72%;
+	float: left;
+}
+
+.entry {
+	border-right: #b74e07 dotted 2px;
+	padding-right: 20px;
+}
+
+.date {
+
+}
+
+.photo_text {
+	margin-left: 110px;
+	position: relative;
+}
+
+.photo {
+	width: 100px;
+	height: 75px;
+	position: absolute;
+	left: -110px;
+	top: -10px;
+}
+
+.photo img {
+	border: none;
+}
+
+.continued {
+
+}
+
+p.miniphotos {
+	height: 33px;
+	overflow: hidden;
+}
+
+.miniphotos img {
+	vertical-align: middle;
+}
+
+	/*
+	   setting the border
+	   border-style: [none dotted dashed solid];
+	   border-width: 5px;
+	   border-color: red;
+	   border-top-[style width color]: value;
+	   border-right-[style width color]: value;
+	   border-bottom-[style width color]: value;
+	   border-left-[style width color]: value;
+
+	   can also just use border: and set properties
+	   you must include a style
+	   border: dashed 4px red;
+	*/
+
+-->
